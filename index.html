@@ -7,6 +7,70 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+<header>
+    <nav class="navbar">
+      <!--Logo-->
+      <a href="#" class="logo">
+        <img src="images/OIP.webp" alt="Girl Code Logo" />
+      </a>
+
+      <!-- Desktop navigation -->
+      <ul class="nav-links">
+        <li><a href="https://www.girlcode.co.za/hackathon">Hackathon</a></li>
+
+        <!-- Programs dropdown (desktop only) -->
+        <li class="dropdown desktop-dropdown-parent">
+          <input type="checkbox" id="desktop-programs-toggle" />
+          <label for="desktop-programs-toggle" class="desktop-dropdown-label">Programs</label>
+
+          <div class="desktop-dropdown-panel">
+            <div class="panel-content">
+              <span class="program-title">Our Programs</span>
+              <a href="https://www.girlcode.co.za/program/girlcoder-club" class="program-block-link">
+                <div class="program-info-vertical">
+                  <span class="program-name">GirlCoder Club</span>
+                  <span class="program-desc">Virtual coding classes for kids from Grade 4 - 10</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </li>
+
+        <li><a href="https://www.girlcode.co.za/for-companies">For Companies</a></li>
+        <li><a href="https://www.girlcode.co.za/about-us">About Us</a></li>
+        <li><a href="https://www.girlcode.co.za/contact-us">Contact Us</a></li>
+      </ul>
+
+      <!-- Mobile hamburger -->
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="hamburger-btn">
+        <span></span><span></span><span></span>
+      </label>
+
+      <!-- Mobile overlay menu -->
+      <div class="overlay">
+        <label for="menu-toggle" class="closebtn">&times;</label>
+        <ul class="overlay-links">
+          <li><a href="https://www.girlcode.co.za/hackathon">Hackathon</a></li>
+
+          <li class="dropdown">
+            <input type="checkbox" id="mobile-programs-toggle" />
+            <label for="mobile-programs-toggle" class="mobile-dropdown-label">
+              Programs <span class="arrow">&gt;</span>
+            </label>
+            <ul class="dropdown-content">
+              <li><a href="https://www.girlcode.co.za/programs/online-bootcamp">Online Bootcamp</a></li>
+              <li><a href="https://www.girlcode.co.za/program/girlcoder-club">GirlCoder Club</a></li>
+            </ul>
+          </li>
+
+          <li><a href="https://www.girlcode.co.za/for-companies">For Companies</a></li>
+          <li><a href="https://www.girlcode.co.za/about-us">About Us</a></li>
+          <li><a href="https://www.girlcode.co.za/contact-us">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
 
   <main>
@@ -130,7 +194,68 @@
     </div>
   </section>
 
+<!--Testimonials section-->
+<section class="testimonials">
+    <h2>Testimonials</h2>
+    <p class="subheading">Here is what our GirlCoders, Parents and Partners have to say.</p>
 
+    <div class="slider">
+      <div class="slides">
+        <!-- Original testimonials -->
+        <div class="card">
+          <img src="khomotso.jpg" alt="Khomotso Mosena">
+          <h3>Khomotso Mosena</h3>
+          <p class="role">GirlCoder</p>
+          <p class="text">Winning a laptop in the coding competition has been a significant boost to my learning journey. It has proven invaluable for coding tasks, making the learning process more accessible and efficient. Combined with my coding classes, it has truly enhanced my experience, providing practicality and convenience in my pursuit of knowledge.</p>
+        </div>
+        <div class="card">
+          <img src="zandile.jpg" alt="Zandile Tube">
+          <h3>Zandile Tube</h3>
+          <p class="role">GirlCoder</p>
+          <p class="text">The program has exceeded my expectations, the staff at GirlCode are extremely friendly and always ready to assist which is a good thing. My hopes for the future are to grow my skills in the IT industry and see myself growing in whichever company I’m placed in.</p>
+        </div>
+        <div class="card">
+          <img src="tsholo.jpg" alt="Tsholofelo Khumalo">
+          <h3>Tsholofelo Khumalo</h3>
+          <p class="role">GirlCoder</p>
+          <p class="text">Thanks to GirlCode, I can confidently build a CRUD application. I’m now a certified Cloud Practitioner.</p>
+        </div>
+        <div class="card">
+          <img src="thandiwe.jpg" alt="Thandiwe Khalaki">
+          <h3>Thandiwe Khalaki</h3>
+          <p class="role">GirlCoder</p>
+          <p class="text">Attending the AWS Cloud Practitioner course with GirlCode has been incredible. I’ve become more confident and skilled.</p>
+        </div>
+
+        <!-- Duplicated testimonials for seamless loop -->
+        <div class="card">
+          <img src="khomotso.jpg" alt="Khomotso Mosena">
+          <h3>Khomotso Mosena</h3>
+          <p class="role">GirlCoder</p>
+          <p class="text">Winning a laptop in the coding competition has been a significant boost to my learning journey.</p>
+        </div>
+        <div class="card">
+          <img src="zandile.jpg" alt="Zandile Tube">
+          <h3>Zandile Tube</h3>
+          <p class="role">GirlCoder</p>
+          <p class="text">GirlCode has exceeded my expectations. The staff are extremely friendly and always ready to assist.</p>
+        </div>
+        <div class="card">
+          <img src="tsholo.jpg" alt="Tsholofelo Khumalo">
+          <h3>Tsholofelo Khumalo</h3>
+          <p class="role">GirlCoder</p>
+          <p class="text">Thanks to GirlCode, I can confidently build a CRUD application. I’m now a certified Cloud Practitioner.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="dots">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </section>
 
  </main>
 
