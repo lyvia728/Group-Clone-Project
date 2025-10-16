@@ -1,5 +1,4 @@
 body{
-    padding: 70px;
     font-family: Arial, sans-serif;
     background-color: #fff;
     margin: 0;
@@ -7,29 +6,24 @@ body{
 }
 
 
-
+/*@Tshegofatso-Mildred*/
 /* Reset */
 * { margin: 0; padding: 0; box-sizing: border-box; }
-
-body {
-  font-family: Arial, sans-serif;
-}
 
 /* Navbar */
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 70px;
-  padding: 0 20px;
+  padding-top: 5px;
+  padding-left: 80px;
+  padding-right: 80px;
   background: #fff;
-  border-bottom: 1px solid #ddd;
   position: relative;
-  z-index: 1000;
 }
 
 /* Logo */
-.logo img { height: 50px; }
+.logo img { height: 40px; }
 
 /* Desktop Links */
 .nav-links {
@@ -234,18 +228,23 @@ body {
 }
 
 
+
+/*@leratomakhasane*/
 /*hero section*/
 .hero{
     display: flex;
     align-items: center;
     margin: 20px;
+    padding-left: 70px;
+    padding-right: 100px;
+    padding-top: 30px;
 }
 
 .hero-image{
     flex: 1;
     margin-left: 50px;
     border-radius: 10px;
-    width: 600px;
+    width: 500px;
     height: auto;
 }
 
@@ -369,12 +368,13 @@ body {
 
 
 
-body {
+/*body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: #f9f9f9;
-}
-
+}*/
+/*@Tshegofatso-Mildred*/
+/* Testimonials Section */
 .testimonials {
   padding: 60px 20px;
   text-align: center;
@@ -463,10 +463,12 @@ body {
 
 
 
-body{
+/*body{
     font-family: Arial, sans-serif;
     background-color: white;
-}
+}*/
+/*@lyvia728*/
+/*footer section*/
 .footer-box{
     width: 100%;
     color: white;
