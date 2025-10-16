@@ -458,3 +458,89 @@ body {
   0%   { transform: translateX(0); }
   100% { transform: translateX(-1050px); } /* 7 cards × 300px + spacing */
 }
+
+
+
+
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+.footer-box{
+    width: 100%;
+    color: white;
+    background-color: #E94154;
+    padding: 20px;
+    align-items: flex-start;
+    
+}
+.footer-box div{
+    align-items: flex-start;
+    vertical-align: top;
+}
+footer ul a{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+footer ul li{
+    list-style: none;
+   
+}
+ .row1, .row2, .row3, .row4, .row5{
+    display: inline-block;
+    margin-left: 40px;
+ }
+   
+  
+
+.row5 ul li {
+   display: inline-block;
+    vertical-align: top;
+    
+    
+}
+button{
+    background-color: white;
+    color: #E94154;
+    padding: 10px;
+    margin: 0;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+
+    
+
+}
+button:hover{
+    background-color: white;
+    color: white;
+
+}
+
+.row2, .row3, .row3, .row4, .row5 h3{
+    padding: 20px;
+    padding-inline-start: 20px;
+}
+
+.row5 ul li{
+    
+   justify-content: space-around;
+   padding-left: 10px;
+   margin-top: 20px;
+
+}
+
+.iframe {
+
+        position: fixed;
+        top: 25%;
+        right: 10px
+       
+        
+}
+    
+
+  
