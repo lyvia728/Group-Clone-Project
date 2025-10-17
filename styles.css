@@ -405,7 +405,69 @@ body{
   }
 }
 
+/*Tshegofatso*/
+.events-section {
+  background-color: hsl(350, 84%, 53%); /* Soft pink */
+  padding: 60px 20px;
+}
 
+.events-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.events-text {
+  flex: 1;
+  min-width: 280px;
+  color: white;
+}
+
+.events-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.events-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.white-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: white;
+  color: #fd2a9e;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.white-button:hover {
+  background-color: #f80979;
+}
+
+.student-count {
+  flex: 0 0 150px;
+  text-align: center;
+  color: white;
+}
+
+.student-count .number {
+  font-size: 2.5rem;
+  font-weight: bold;
+  display: block;
+}
+
+.student-count .label {
+  font-size: 1.2rem;
+  margin-top: 8px;
+  display: block;
+}
 
 
 
